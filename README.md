@@ -1,17 +1,12 @@
-# Sobre o projeto
-
-Esse projeto dividi-se em duas partes: **"backend e frontend"**. Essa parte é a **backend (API)**. 
-Nesse **design** a separação dos papeis se torna clara e simples de se entender, alem de facilitar o desenvolvimento, sendo possível 
-subir/executar o `projeto backend ou forntend` de forma `independente`. Que por concequencia também possibilita que
-para esse backend possa existir varios frontends. Ex: "Para esse projeto backend posso ter uma client mobile, 
-web, etc". Nesse case tenho um client web desenvolvido com angular 4.
+# Essa aplicação foi feita para servir dados a uma aplicação frontend
+Nota: Para essa api foi implementos novas funcionalidades sobre a api já existente: https://github.com/wellingtonxafundifornio/gestaocursos-ui
 
 ## Acesse o link para baixar e executar o client que complementa esse projeto
 
-gestaocursos-ui: https://github.com/wellingtonxafundifornio/gestaocursos-ui
+https://github.com/wellingtonxafundifornio/gestaocontas-ui.git
 
 ### Executando o projeto
- * No arquivo ...\gestaocursos-api\src\main\resources\ `application.properties` coloque as credenciais do seu banco de dados.;
+ * No arquivo ...\gestaocursos-api\src\main\resources\ `application.properties` coloque as credenciais(`schema, usuário e senha`) do seu banco de dados.;
  * **Via cmd, no diretório** `C:\gestaocursos\gestaocursos-api>` execute o comando `mvn clean package` para fazer o build do projeto;
  * Entre no diretório `C:\gestaocursos\gestaocursos-api\target>` e preencha os comandos abaixo com as credenciais do seu banco de dados 
 colocadas no arquivo `application-properties` comandos: 
